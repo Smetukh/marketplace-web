@@ -1,0 +1,16 @@
+/* eslint-disable react/jsx-indent */
+import React from 'react';
+import T from 'prop-types';
+import { Redirect } from 'react-router-dom';
+import s from './Inbox.module.scss';
+import Api from '../../api';
+import { routes } from '../router';
+
+function Inbox() {
+    console.log('INBOX')
+    return (
+        <div>Inbox</div>
+    )
+}
+
+export default Inbox;

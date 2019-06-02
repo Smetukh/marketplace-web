@@ -1,0 +1,22 @@
+.footer {
+	flex-shrink: 0;
+	text-align: center;
+	background-color: rgba(192, 196, 206, 0.127321);
+	color: white;
+}
+
+.content {
+	font-family: Font Awesome 5 Brands;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14.4px;
+	line-height: 17px;
+	/* identical to box height */
+
+
+	color: #C0C4CE;
+}
+a.privacy, a.policy {
+	text-decoration: none;
+	color: #C0C4CE;
+}
