@@ -7,10 +7,10 @@ import { routes } from '../../scenes/router';
 const Footer = () => (
   <footer className={s.footer}>
     <div className={s.content}>
-      <p>Copyright © 2019. 
-				<Link className={s.privacy} to={routes.privacy}> Privacy </Link> 
-				<Link className={s.policy} to={routes.policy}>Policy </Link> 
-				</p>
+      	<p>Copyright © 2019. 
+			<Link className={s.privacy} to={routes.privacy}> Privacy </Link> 
+			<Link className={s.policy} to={routes.policy}>Policy </Link> 
+		</p>
     </div>
   </footer>
 );

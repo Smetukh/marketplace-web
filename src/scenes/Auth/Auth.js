@@ -5,12 +5,11 @@ import { Route, Switch, Redirect } from 'react-router-dom';
 import s from './Auth.module.scss';
 import { Header } from '../../components';
 import { routes } from '../router';
-import Login from '../Login/Login';
+import Login from '../Login/LoginContainer';
 import Register from '../Register/Register';
 import Api from '../../api';
 
 function Auth() {
-    console.log('1Api.Auth.isLoggedIn = ', Api.Auth.isLoggedIn)
     return (
         <div className={s.container}>
             <Header />

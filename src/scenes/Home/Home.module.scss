@@ -1,9 +1,15 @@
+.body {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+
 .container {
 	// color: red;
 	flex: 1 0 auto; /* Prevent Chrome, Opera, and Safari from letting these items shrink to smaller than their content's default minimum size. */
-  padding: 0;
-  justify-content: center;
-  text-align: center;
+	padding: 0;
+	justify-content: center;
+	text-align: center;
 }
 
 .footer {

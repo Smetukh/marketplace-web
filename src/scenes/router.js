@@ -30,7 +30,7 @@ export default function Router() {
             <Switch>
                 <Route exact path={routes.home} component={Home}/>
                 <PrivateRoute path={routes.inbox} component={Inbox}/>
-                <Auth path={routes.auth}/>
+                <Route path={routes.auth} component={Auth} />
                 <Route path={routes.policy} component={Policy}/>
                 <Route path={routes.privacy} component={Privacy}/>
                 <PrivateRoute path={routes.bookmarks} component={Bookmarks}/>

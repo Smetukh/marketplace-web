@@ -5,13 +5,12 @@ import { Footer } from '../../components';
 
 function Home() {
 	return (
-  <>
-    <div className={s.container}>
-      <Header />
-      {/* <div className={s.content}>Content</div> */}
-    </div>
-    <Footer />
-  </>
+		<div className={s.body}>
+			<div className={s.container}>
+				<Header />
+			</div>
+			<Footer />
+		</div>
 	)
 }
 
